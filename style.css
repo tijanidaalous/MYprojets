@@ -1,0 +1,148 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.section1{
+    background-image: url("back.jpg.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+.imglogo{
+  
+    border-radius: 100%;
+    
+    
+
+}
+header{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+   
+    border: 1px solid black;
+    position: fixed;
+    background-color: aqua;
+    width:100%;
+    
+    
+
+}
+.j{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+}
+.log{
+    padding-right: 900px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+header{
+
+     padding-top: 10px;
+   
+}
+header a{
+    padding-top: 50px;
+    padding-right:   20px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transform: scale(1.1);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+
+    
+    text-decoration: none ;
+}
+a:hover{
+    transition: 0.7s ease;
+   
+    height:200px;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+.ti{
+   border-radius: 100%;
+   margin-top: 100px;
+   margin-left: 1000px;
+   
+   
+}
+
+.p1{
+    font-size:50px;
+    padding-left:100px;
+   
+    color:rgb(55, 0, 255);
+}
+.p2{
+    font-size:30px;
+    padding-left:100px;
+    padding-top: 20px ;
+    padding-bottom: 10px ;
+    color:rgb(0, 166, 255);
+    font-weight: 900;
+    
+
+}
+.p3{
+    font-size:30px;
+    padding-left:100px;
+    padding-bottom: 240px;
+    color:rgb(0, 166, 255);
+    font-weight: 900;
+}
+.card{
+    border: 1px solid black;
+    padding:  10px;
+    margin: 40px 10px;
+    height: 250px;
+}
+.continair{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.form{
+    margin:  300px 0px ;
+    padding-left:50px;
+    
+    margin-left: 600px;
+    border: 1px solid black;
+    width: 300px;
+    height:350px;
+    background-color: rgb(14, 15, 15);
+    border-radius: 2%;
+   
+}
+
+.section3{
+    
+}
+.label{
+    padding: 15px 0;
+    color:whitesmoke;
+}
+.input{
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 8%;
+    background-color: blueviolet;
+    font-size:20px;
+    font-weight:700;
+}
