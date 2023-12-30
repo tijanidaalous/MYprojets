@@ -1,0 +1,111 @@
+*{
+    padding:0px;
+    margin:0px;
+   
+}
+header{
+    display:flex;
+    background-color: hsl(0, 86%, 45%);
+   height: 100px;
+   border-radius: 10px 10px 0px 0px;
+}
+.imglogo{
+    margin: 10px;
+    border-radius:100%;
+
+}
+.logo{
+    margin-top: 30px;
+}
+nav {
+    display: flex;
+    background-color: rgb(123, 8, 8);
+    justify-content: space-evenly;
+    height:40px;
+    border-radius: 0px 0px 10px 10px ;
+    flex-wrap: wrap;
+   
+}
+nav a{
+    margin-top: 10px;
+    text-decoration: none;
+    color:white
+}
+nav a:hover{
+    background-color: whitesmoke;
+    color:black;
+    border:1px solid whitesmoke;
+    height: 20px;
+    width:100px;
+    padding-left: 40px;
+    border-radius: 10px;
+
+    
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+article{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.video {
+padding:20px;
+
+}
+.para{
+    border:1px solid black;
+    margin-top:50px;
+    margin-bottom: 10px;
+    padding:10px 0px;
+}
+.button{
+    display:flex;
+    flex-direction:row;
+    justify-content: ;
+
+
+}
+button{
+    width:200px;
+    height:40px;
+    border-radius:20px;
+    background-color: rgb(249, 148, 7);
+    
+    
+
+}
+.aside{
+    background-color: rgb(243, 155, 48);
+    width: 250px;
+    padding: 50px;
+}
+
+
+article a{
+    text-decoration: none;
+}
+@media all and (min-width:800px){
+    body{
+        background-color: blue;
+    }
+    
+}
+@media all and (min-width:560px) and (max-width:800px){
+    body{
+        background-color: rgb(25, 240, 68);
+    }
+    
+}
+@media all and (max-width:560px){
+    body{
+        background-color: rgb(250, 8, 64);
+    }
+    
+}

@@ -1,0 +1,181 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+header{
+    display:flex;
+    background-color: hsl(0, 86%, 45%);
+   height: 100px;
+   border-radius: 10px 10px 0px 0px;
+}
+.imglogo{
+    margin: 10px;
+    border-radius:100%;
+
+}
+.logo{
+    margin-top: 30px;
+}
+nav {
+    display: flex;
+    background-color: rgb(123, 8, 8);
+    justify-content: space-evenly;
+    height:40px;
+    border-radius: 0px 0px 10px 10px ;
+   
+}
+nav a{
+    margin-top: 10px;
+    text-decoration: none;
+    color:white
+}
+nav a:hover{
+    background-color: whitesmoke;
+    color:black;
+    border:1px solid whitesmoke;
+    height: 20px;
+    width:100px;
+    padding-left: 40px;
+    border-radius: 10px;
+
+    
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    
+}
+h1{
+    padding-left: 80px;
+
+}
+article img{
+    padding-left: 60px;
+}
+article button{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(239, 84, 7);
+    margin-left: 35px;
+
+}
+p{
+    margin-left: 20px;
+}
+.html{
+    border: 1px solid white;
+    width:280px;
+    height:500px;
+
+}
+.css{
+    border: 1px solid white;
+    width:280px
+
+}
+.js{
+    border: 1px solid white;
+    width:280px
+
+}
+
+.html img{
+    padding-left:85px
+}
+.css img{
+    padding-left:85px
+}
+.js img{
+    padding-left:40px
+}
+.html h1{
+    padding-left:105px
+}
+.css h1{
+    padding-left:110px
+}
+
+
+
+
+
+
+.forom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(247, 131, 8);
+    padding-bottom: 150px;
+    width: 250px;
+   justify-content:space-between
+}
+label{
+    padding-left: 80px;
+    margin-top: 10px;
+}
+h2{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.pass{
+padding-left: 60px;
+margin-top: 10px;
+}
+.email{
+    padding: 0px 10px;
+}
+.Besoin{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.mot{
+    padding-left: 40px;
+    margin-top: 10px;
+}
+button{
+    margin: 10px;
+
+}
+.email{
+    height: 20px;
+}
+.connexion{
+    height: 30px;
+    background-color: rgb(255, 98, 0);
+}
+input{
+    margin:0px 10px;
+    
+}
+
+
+
+article:hover{
+    background-color: rgb(243, 175, 86);
+}
+footer p{
+    display:flex;
+    border:1px solid white;
+    border-radius:10px;
+    background-color:rgb(251, 9, 9);
+    justify-content:center;
+    margin-top: 20px;
+    font-size:20px;
+    font-weight:600
+}
+article a{
+    text-decoration:none;
+
+    
+   
+}
+.aside{
+    background-color: rgb(255, 111, 0);
+}
